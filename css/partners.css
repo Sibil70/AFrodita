@@ -1,0 +1,81 @@
+.partners__container{
+    width: 880px;
+    margin-bottom: 30px;
+}
+
+.partners__title {
+    margin: 0;
+    margin-bottom: 80px;
+    font-size: 49px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.partners__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.partners__item  {
+    flex-basis: 33.33%;
+    height: 63px;
+    margin-bottom: 50px;
+
+}
+
+.partners__item--flamingo   {
+    background: url(../img/partners/logo/logo-1-color.png) center center no-repeat;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.partners__item--flamingo:hover{
+filter: grayscale(0%);
+}
+
+.partners__item--malibu   {
+    background: url(../img/partners/logo/logo-2-color.png) center center no-repeat;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.partners__item--malibu:hover{
+    filter: grayscale(0%);
+}
+.partners__item--lion   {
+    background: url(../img/partners/logo/logo-3-color.png) center center no-repeat;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.partners__item--lion:hover{
+    filter: grayscale(0);
+}
+
+.partners__item--arni {
+    background: url(../img/partners/logo/logo-4-color.png) center center no-repeat;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 0.2s;
+  }
+.partners__item--arni:hover {
+    filter: grayscale(0);
+}
+.partners__item--grif {
+    background: url(../img/partners/logo/logo-5-color.png) center center no-repeat;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.partners__item--grif:hover {
+    filter: grayscale(0);
+}
+
+.partners__item--man{
+    background: url(../img/partners/logo/logo-6-color.png) center center no-repeat;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.partners__item--man:hover {
+    filter: grayscale(0);
+ }

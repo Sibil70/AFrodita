@@ -1,0 +1,30 @@
+/* базовые настройки */
+@import url(./fonts.css);
+@import url(./base.css);
+@import url(./normalize.css);
+/* стили header */
+@import url(./header.css);
+
+/*стили для контента main page*/
+@import url(./content.css);
+/* стили для страницы comments */
+@import url(./feed.css);
+
+/*стили для breadcrumbs */
+@import url(./breadcrumbs.css);
+
+/*стили для form*/
+@import url(./forms.css);
+
+/*стили для пагинатора*/
+@import url(./switcher.css);
+/* стили footer */
+@import url(./footer.css);
+
+/* стили services */
+@import url(./services.css);
+/* стили partners*/
+@import url(./partners.css);
+
+/* стили приветствия */
+@import url(./auth.css)
